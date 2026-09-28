@@ -1,0 +1,6 @@
+# Smithery configuration for genpark-matrix4x4-perspective-projection-pipeline-skill
+name: genpark-matrix4x4-perspective-projection-pipeline-skill
+version: 1.0.0
+runtime: python
+entrypoint: mcp_server.py
+type: stdio
