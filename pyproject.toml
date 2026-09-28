@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-matrix4x4-perspective-projection-pipeline-skill"
+version = "1.0.0"
+description = "Homogeneous 4x4 matrix transformation pipeline with symmetrical perspective frustum projection and clipping."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "AlphaPark Team", email = "engineering@alphapark.ai"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Graphics :: 3D Rendering"
+]
+
+[project.urls]
+Homepage = "https://github.com/alphaparkinc/genpark-matrix4x4-perspective-projection-pipeline-skill"
+Repository = "https://github.com/alphaparkinc/genpark-matrix4x4-perspective-projection-pipeline-skill.git"
+Issues = "https://github.com/alphaparkinc/genpark-matrix4x4-perspective-projection-pipeline-skill/issues"
